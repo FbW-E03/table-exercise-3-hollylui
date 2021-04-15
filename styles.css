@@ -1,0 +1,38 @@
+/* * ------------------- */
+
+* {
+  width: 500px;
+  margin: auto;
+}
+
+/* heading ------------- */
+
+h1,
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* table --------------- */
+
+table {
+  width: 400px;
+  border-spacing: 5px;
+}
+
+td {
+  width: 100px;
+  padding: 10px 0 10px 10px;
+}
+
+tr:nth-child(2n + 1) > td:first-child {
+  border-left: 5px solid #cc181b;
+}
+
+tr:nth-child(2n) > td:first-child {
+  border-left: 5px solid #449d45;
+}
+
+td:not(first-child) {
+  border-left: 5px solid #c0c0c0;
+}
