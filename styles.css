@@ -25,11 +25,11 @@ td {
   padding: 10px 0 10px 10px;
 }
 
-tr:nth-child(2n + 1) > td:first-child {
+tr:nth-child(odd) > td:first-child {
   border-left: 5px solid #cc181b;
 }
 
-tr:nth-child(2n) > td:first-child {
+tr:nth-child(even) > td:first-child {
   border-left: 5px solid #449d45;
 }
 
